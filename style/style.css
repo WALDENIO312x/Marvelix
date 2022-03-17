@@ -1,0 +1,91 @@
+:root{
+    --vermelho: rgb(221, 0, 0);
+    --preta: rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(255, 255, 255);
+    background-size:cover;
+    background-color: rgb(32, 32, 32);
+}
+.topo{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)150%), url(../img/HF07.jpg);
+    height: 450px;
+    background-size: cover;
+}
+.container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0,0,0,.30);
+}
+.logo{
+    margin-right: 30px;
+    margin-left: 5px;
+}
+header nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 15px;
+}header nav a:hover{
+    color: rgb(211, 211, 211)
+}
+.filme-principal{
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+
+    height: 400px;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-capa{
+    color: rgb(255, 230, 0);
+    font-size: 30px;
+}
+.filme-principal .descricao{
+    margin-bottom: 30px;
+    margin-right: 50%;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .2s ease all;
+    margin-right: 40px;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.container2{
+   font-family: "Helvetica Neue",Helvetica,Arial;
+   margin-top: -50px;
+   margin-left: 80px;
+}
+.botao i{
+    margin-right: 15px;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-top: 5%;
+    margin-left:20px
+}
+.movies{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
